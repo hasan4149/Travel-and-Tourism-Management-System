@@ -3,7 +3,7 @@ package travel.management.system;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-//import javax.swing.border.LineBorder;
+
 
 
 public class Signup extends JFrame implements ActionListener{
@@ -105,7 +105,7 @@ public class Signup extends JFrame implements ActionListener{
         Image i2 = i1.getImage().getScaledInstance(250, 250,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
-        image.setBounds(100, 20,250, 250);
+        image.setBounds(50, 10,500, 250);
         p1.add(image);
          
          
